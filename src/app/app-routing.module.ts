@@ -39,6 +39,8 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { AboutUsComponent } from './menu/about-us/about-us.component';
 import { ContactUsComponent } from './menu/contact-us/contact-us.component';
 import { InvoiceComponent } from './invoice/invoice.component';
+import { PescriptionComponent } from './pescription/pescription.component';
+import { WordComponent } from './word/word.component';
 
 const routes: Routes = [
 
@@ -106,7 +108,9 @@ const routes: Routes = [
   { path: 'ward', component: WardComponent},
   { path: 'wardList', component: WardLIstComponent},
   { path: 'wardUpdate/:id', component: WardComponent},
-  { path: 'wardDetail/:id', component: WardDeatilsComponent}
+  { path: 'wardDetail/:id', component: WardDeatilsComponent},
+  {path: 'pescription', component:PescriptionComponent},
+  {path: 'word',component:WordComponent}
 ];
 
 @NgModule({

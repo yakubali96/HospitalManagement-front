@@ -56,6 +56,8 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { AboutUsComponent } from './menu/about-us/about-us.component';
 import { ContactUsComponent } from './menu/contact-us/contact-us.component';
 import { InvoiceComponent } from './invoice/invoice.component';
+import { PescriptionComponent } from './pescription/pescription.component';
+import { WordComponent } from './word/word.component';
 
 @NgModule({
   declarations: [
@@ -109,7 +111,9 @@ import { InvoiceComponent } from './invoice/invoice.component';
     SignUpComponent,
     AboutUsComponent,
     ContactUsComponent,
-    InvoiceComponent
+    InvoiceComponent,
+    PescriptionComponent,
+    WordComponent
   ],
   imports: [
     BrowserModule,
